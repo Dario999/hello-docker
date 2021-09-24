@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import com.hazelcast.memory.MemoryStats;
 
 @RestController
-@RequestMapping("main")
+@RequestMapping("")
 public class MainController{
 
 	@GetMapping
